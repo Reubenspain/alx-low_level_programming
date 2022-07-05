@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - check the code for Alx School students.
+ * print_alphabet - Prints the alphabeths in lowercase followed by a newline.
  *
- * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-	char alphabet = 'a';
+	char c = 'a';
 
-	while (alphabet <= 'z')
+	while (c <= 'z')
 {
-	_putchar (alphabet);
-	alphabet++;
+	_putchar(c);
+	c++;
 
 }
 	_putchar ('\n');
