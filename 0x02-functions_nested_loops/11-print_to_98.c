@@ -1,34 +1,28 @@
-#include <stdlib.h>
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_to_98 - writes the character c to stdout
- * @n: starting number
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_to_98 - Prints all natural numbers from n to 98
+ * @n: The number to check
  */
 void print_to_98(int n)
 {
 	if (n > 98)
 {
 	while (n => 98)
-	printf("%d", n)
 {
+	printf("%d", n);
 	if (n != 98)
 {
 	printf(",");
-	n--;
 }
-	printf("%d, ", n);
-	n++;
+	n--;
 }
 }
 	else
 {
 	while (n <= 98)
-	prntf("%d,", n);
 {
+	prntf("%d,", n);
 	if (n != 98)
 {
 	printf(" , ");
