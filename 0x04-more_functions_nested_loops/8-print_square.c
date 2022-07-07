@@ -11,7 +11,6 @@ void print_square(int size)
 	if (size < 1)
 {
 	_putchar('\n');
-	return;
 }
 
 	for (y = 0; y < size; y++)
