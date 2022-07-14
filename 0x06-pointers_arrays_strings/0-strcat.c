@@ -16,11 +16,11 @@ char *_strcat(char *dest, char *src)
 		destlen++;
 
 	while (src[srcLen])
-{
+	{
 		dest[destLen] = src[srcLen];
-		srcLen++;
-		destLen++;
-}
+			srcLen++;
+				destLen++;
+	}
 	dest[destLen] = '\0';
 
 	return (dest);
