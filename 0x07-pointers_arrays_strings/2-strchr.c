@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * _strchr - locates a character in a string
+ * _strchr- locates a character in a string
  * @s: the string
  * @c: the character
  *
@@ -12,15 +12,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
-{
-	if (*s == c)
-		return (s);
-	else if (*(s + 1) == c)
-		return (s + 1);
-	s++;
-}
+	unsigned int i = 0;
 
-	return (s + 1);
+	for (; *(s + i) != '\0'; i++)
+	if (*(s + i) == c)
+	return (s + i);
+		if (*(s + i) == c)
+		return (s + i);
+	return ('\0');
 }
-
