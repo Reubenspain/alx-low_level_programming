@@ -1,13 +1,9 @@
 #include "main.h"
-#include <stdio.h>
-
-/*
+/**
  * _strchr- locates a character in a string
  * @s: the string
  * @c: the character
- *
- * Return: a pointer to the first occurrence of the
- * character c in the string s,
+ * Return: a pointer to the first occurrence of the character c
  * or NULL if the character is not
  */
 char *_strchr(char *s, char c)
